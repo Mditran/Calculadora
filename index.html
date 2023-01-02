@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <section>
+    <form action="form">
+      <input type="button" id="display" name="display" placeholder="0">
+      <br>
+      <input type="button" value="7" onclick="addNumber(7)">
+      <input type="button" value="8" onclick="addNumber(8)">
+      <input type="button" value="9" onclick="addNumber(9)">
+      <input type="button" value="DEL">
+      <br>
+      <input type="button" value="4" onclick="addNumber(4)">
+      <input type="button" value="5" onclick="addNumber(5)">
+      <input type="button" value="6" onclick="addNumber(6)">
+      <input type="button" value="+" onclick="addSymbol('+')">
+      <br>
+      <input type="button" value="1" onclick="addNumber(1)">
+      <input type="button" value="2" onclick="addNumber(2)">
+      <input type="button" value="3" onclick="addNumber(3)">
+      <input type="button" value="-" onclick="addSymbol('-')">
+      <br>
+      <input type="button" value="." onclick="addNumber('.')">
+      <input type="button" value="0" onclick="addNumber(0)">
+      <input type="button" value="/" onclick="addSymbol('/')">
+      <input type="button" value="X" onclick="addSymbol('*')">
+      <br>
+      <input type="button" value="RESET" onclick="resetDisplay()">
+      <input type="button" value="=" onclick="total()">
+    </form>
+  </section>
+  <script src="./index.js"></script>
+</body>
+
+</html>
